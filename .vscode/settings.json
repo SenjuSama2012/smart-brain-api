@@ -1,4 +1,14 @@
 {
   "marquee.widgets.npm-stats.packageNames": ["smart-brain-api"],
-  "cSpell.words": ["Clarifai", "holmydick", "imageurl", "Retsu", "signin"]
+  "cSpell.words": [
+    "Clarifai",
+    "holmydick",
+    "imageurl",
+    "PGDATABASE",
+    "PGPASSWORD",
+    "PGPORT",
+    "PGUSER",
+    "Retsu",
+    "signin"
+  ]
 }
