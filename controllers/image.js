@@ -21,7 +21,7 @@ const app = new Clarifai.App({
       .catch(err => res.status(400).json('Unable to Work With API'))
   }
 
-    const handleImage = (req, res) => {
+    const handleImage = (req, res, db) => {
         const { id } = req.body;
     
         db("users")

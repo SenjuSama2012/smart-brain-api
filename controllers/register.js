@@ -6,7 +6,7 @@
     }
     const hash = bcrypt.hashSync(password);
 
-    db.transaction((trx) => {
+    db.transaction(trx => {
         trx
         .insert({
             hash: hash,
@@ -14,7 +14,7 @@
         })
         .into("login")
         .returning("email")
-        .then((loginEmail) => {
+        .then(loginEmail => {
             return trx("users")
             .returning("*")
             .insert({
